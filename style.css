@@ -6,36 +6,24 @@ html ,body {
   padding-bottom: 3rem;
   color: #080709;
   overflow-x: hidden !important;
-  
+  width: 100%;
 }
-/* .headerstyle{
-  background: #1f1f1e;
- 
-} */
+
 .textcolor{
   color: #080709;
 }
-.custom-button {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  background-color: #0c0c0c;
-  border: none;
-  color: black;
- 
-  
-  font-size: 30px;
-  z-index: 2000;
-}
+
 
 #navbar {
+  border: #080709 solid 2px;
   width: 100%;
-  height: var(--nav-height);
-  position: fixed;
+  /* height: var(--nav-height); */
+  /* position: fixed; */
   top: 0;
   left: 0;
   background:linear-gradient(to right,rgb(106, 106, 92),#3c3a2c);
   display: flex;
+ 
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -49,7 +37,7 @@ html ,body {
 
 
 #navbar a {
-  float: left;
+  /* float: left; */
   display: flex;
   align-items: center;
   color: #f3ecec;
@@ -61,16 +49,13 @@ html ,body {
   
 }
 
-/* 
-#navbar a:hover {
-  background-color: #fcdb03;
-  color: rgb(244, 238, 238);
-} */
-/* .imgbutton{
+
+.imgbutton{
   display: flex;
   justify-content:space-between;
   align-items: center;
-} */
+  width: 100%;
+}
 
 
 
@@ -79,11 +64,7 @@ html ,body {
   height: 50px;
   width: 200px;
 }
-.numberonnav{
-  color: #fcdb03;
-  font-size: xx-large;
-  font: bold;
-}
+
 /* .navbar-toggler-icon{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 
@@ -95,11 +76,6 @@ html ,body {
 -------------------------------------------------- */
 
 
-/* .carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: rgba(23, 22, 22, 0.5); /* Add background color to the control icons */
@@ -107,7 +83,7 @@ html ,body {
 /* Adjust padding as needed */
 }
  .carousel-item {
-  margin-top:50px ;
+  margin-top:0px ;
   height: 100%; /* Adjust this value to set the height you want */
  }  
 .carousel-item img {
@@ -125,27 +101,7 @@ html ,body {
 .container{
   margin-top: 50px;
 }
-/* .container2{
-  border: #080709 solid 2px;
-  margin-top: 50px;
-height: 500px;
-width: 2000px;
-flex-wrap: wrap;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- font-weight: 300;
 
-
-} */
-/* .firstheadline{
-  border: #080709 solid 2px;
-  width: 800px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-} */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -157,12 +113,7 @@ flex-wrap: wrap;
   margin-right: .75rem;
   margin-left: .75rem;
 }
-/* .featurette-heading{
-  border: #080709 solid 2px;
-  
-  margin-left: 60px;
-  font-size: large;
-} */
+
 .btn{
   border: black solid 2px;
   width: 200px;
@@ -214,13 +165,15 @@ flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .container2 .col-md-5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center items within the column */
-  text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
 }
 
 .firstheadline {
@@ -292,24 +245,7 @@ footer{
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-/* @media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  /* .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  } */
 
-  /* .featurette-heading {
-    font-size: 50px;
-  } */
-/* } */
-
-/* @media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-} */
 
 @media (max-width: 576px) {
   .carousel-caption {
