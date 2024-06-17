@@ -258,7 +258,7 @@ flex-wrap: wrap;
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  border: #080709 solid 2px;
+  /* border: #080709 solid 2px; */
   font-weight:bolder;
   line-height: 1;
   letter-spacing: -.05rem;
