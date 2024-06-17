@@ -377,6 +377,16 @@
             set_body_height();
         });
     </script>
+    <script>
+        document.body.addEventListener("scroll", function(){
+  let Navbar = document.getElementById('navbar');
+  if(document.body.scrollTop > 0){
+    Navbar.classList.add("navbar-scroll");
+  }else{
+    Navbar.classList.remove("navbar-scroll");
+  }
+});
+    </script>
 </body>
 
 </html>
