@@ -1,0 +1,464 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #080709;
+}
+/* .headerstyle{
+  background: #1f1f1e;
+ 
+} */
+.textcolor{
+  color: #080709;
+}
+.custom-button {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  background-color: #0c0c0c;
+  border: none;
+  color: black;
+ 
+  
+  font-size: 30px;
+  z-index: 2000;
+}
+#navbar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  /* background-color: rgb(238, 224, 29); */
+  background:linear-gradient(to right,rgb(106, 106, 92),#3c3a2c);
+  transition: all;
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+    padding: 10px;
+    z-index: 1000;
+
+  
+}
+
+#navbar a {
+  float: left;
+  display: flex;
+  align-items: center;
+  color: #f3ecec;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+
+  
+}
+
+/* 
+#navbar a:hover {
+  background-color: #fcdb03;
+  color: rgb(244, 238, 238);
+} */
+.imgbutton{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+
+
+#navbar .nav-logo {
+  height: 50px;
+  width: 200px;
+}
+.numberonnav{
+  color: #fcdb03;
+  font-size: xx-large;
+  font: bold;
+}
+/* .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+} */
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel-item {
+  height: 500px; /* Adjust the height as needed */
+}
+/* .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(23, 22, 22, 0.5); /* Add background color to the control icons */
+  border-radius: 50%;
+  padding: 20px; /* Adjust padding as needed */
+}
+.carousel-item {
+  height: 100%; /* Adjust this value to set the height you want */
+}
+.carousel-item img {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  min-height: 100vh;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the carousel item without stretching */
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+.container{
+  margin-top: 50px;
+}
+/* .container2{
+  border: #080709 solid 2px;
+  margin-top: 50px;
+height: 500px;
+width: 2000px;
+flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-weight: 300;
+
+
+} */
+/* .firstheadline{
+  border: #080709 solid 2px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+} */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.featurette-heading{
+  margin-left: 60px;
+}
+.btn{
+  border: black solid 2px;
+  width: 200px;
+  height: 70px;
+  background-color:  #fcdb03;
+  /* background:linear-gradient(to right,red,blue); */
+
+}
+.btn:hover{
+  border: rgb(122, 128, 128) solid 2px;
+  background:linear-gradient(to right,yellow,#fcdb03);
+  color: black;
+  font:bold;
+  font-size:larger;
+}
+
+
+
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; /* Center text within the column */
+}
+
+.container2 .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container2 .col-md-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items within the column */
+  text-align: center;
+}
+
+.firstheadline {
+  margin-bottom: 20px;
+  width: 800px;
+}
+
+.btn1 {
+  border: black solid 2px;
+  margin-top: 10px;
+  width: 200px;
+  height: 70px;
+  background-color:  #fcdb03;
+}
+.btn1:hover{
+  border: rgb(122, 128, 128) solid 2px;
+  background:linear-gradient(to right,yellow,#fcdb03);
+  color: black;
+  font:bold;
+  font-size:larger;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette-image {
+  
+  margin-bottom: 100px; /* Adjust the value as needed */
+  margin: 0 10px 100px 0px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+.payment{
+  width: 100%;
+  display: flex;
+  justify-content:f;
+  align-items: center;
+}
+.imgcontainer{
+  margin-top: 100px;
+
+  display: flex;
+  gap: 100px;
+  justify-content:space-around;
+  align-items: center;
+}
+footer{
+  background:linear-gradient(to right,rgb(255, 255, 255),#ffffff);
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centers the icons horizontally */
+  gap: 80px; /* Adds space between the icons */
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* @media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  /* .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  } */
+
+  /* .featurette-heading {
+    font-size: 50px;
+  } */
+/* } */
+
+/* @media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+} */
+
+@media (max-width: 768px) {
+  .carousel-caption {
+      font-size: 14px;
+      padding: 5px;
+  }
+
+  .featurette-heading {
+      font-size: 18px;
+  }
+
+  .featurette .col-md-5 {
+      margin-bottom: 20px;
+  }
+
+  .featurette .col-md-7, .featurette .col-md-5 {
+      text-align: center;
+  }
+
+  .featurette-divider {
+      margin: 3rem 0;
+  }
+
+  .firstheadline {
+      font-size: 18px;
+      text-align: center;
+  }
+
+  .btn1.firstheadline {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+      font-size: 12px;
+  }
+
+  .featurette-heading {
+      font-size: 16px;
+  }
+
+  .rounded-circle {
+      width: 100px;
+      height: 100px;
+  }
+
+  .featurette .col-md-5 {
+      margin-bottom: 10px;
+  }
+
+  .featurette-heading {
+      font-size: 16px;
+  }
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #080907;
+
+}
+
+
+
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  /* color: white; */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: lightgreen;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .checkbtn {
+    display: block;
+    order: 1;
+    margin-right: 20px;
+  }
+
+  ul {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-color: #fcdb03;
+    width: 50%;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  }
+
+  ul li {
+    margin: 20xp 0;
+  }
+
+  ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .featurette-image {
+      margin-bottom: 10px;
+  }
+
+  .btn1 {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+
+}
+@media (max-width: 768px) {
+  .imgcontainer {
+      flex-direction: column; /* Stacks images vertically on smaller screens */
+      align-items: center; /* Center-aligns images */
+      gap: 10px; /* Adjust gap for smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .social-icons {
+      gap: 15px; /* Adjust gap for smaller screens */
+  }
+
+  .social-btn {
+      height: 40px;
+      width: 40px;
+  }
+
+  .social-btn i {
+      font-size: 1.2rem;
+  }
+}
+
+
+
