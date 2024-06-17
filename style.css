@@ -239,7 +239,7 @@ flex-wrap: wrap;
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
+  font-weight:900;
   line-height: 1;
   letter-spacing: -.05rem;
 }
@@ -291,7 +291,7 @@ footer{
   }
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .carousel-caption {
       font-size: 14px;
       padding: 5px;
@@ -459,6 +459,39 @@ ul li a:hover {
       font-size: 1.2rem;
   }
 }
+@media (max-width: 576px) {
+  .firstheadline {
+    font-size: 22px; /* Adjust headline font size */
+    text-align: center; /* Center align text */
+  }
+
+ 
+}
+/* Adjustments for small devices (phones) */
+@media (max-width: 576px) {
+  #navbar {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  .imgbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  .nav-logo {
+    height: 40px; /* Reduce logo height for smaller screens */
+    width: auto; /* Allow logo width to adjust */
+  }
+
+  .btn1 {
+    width: 150px; /* Adjust button width */
+    height: 50px; /* Adjust button height */
+    font-size: 14px; /* Adjust button font size */
+  }
+}
+
 
 
 
