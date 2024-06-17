@@ -2,11 +2,11 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  padding-top: 3rem;
+html ,body {
   padding-bottom: 3rem;
   color: #080709;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  
 }
 /* .headerstyle{
   background: #1f1f1e;
@@ -15,7 +15,7 @@ body {
 .textcolor{
   color: #080709;
 }
-.custom-button {
+/* .custom-button {
   position: absolute;
   top: 50%;
   right: 50%;
@@ -26,7 +26,7 @@ body {
   
   font-size: 30px;
   z-index: 2000;
-}
+} */
 #navbar {
   display: flex;
   justify-content:space-between;
@@ -102,12 +102,12 @@ body {
 .carousel-control-next-icon {
   background-color: rgba(23, 22, 22, 0.5); /* Add background color to the control icons */
   border-radius: 50%;
-  padding: 20px; /* Adjust padding as needed */
+/* Adjust padding as needed */
 }
-.carousel-item {
+ .carousel-item {
   margin-top:50px ;
-  height: 2000px; /* Adjust this value to set the height you want */
-}
+  height: 100%; /* Adjust this value to set the height you want */
+ }  
 .carousel-item img {
   height: 450px;
   width: 100%;
@@ -342,7 +342,6 @@ footer{
 @media (max-width: 576px) {
   .carousel-caption {
       font-size: 12px;
-      overflow-x: hidden;
   }
 
   .featurette-heading {
@@ -378,44 +377,11 @@ footer{
 
 
 
-ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-ul li {
-  margin-right: 20px;
-}
-
-ul li a {
-  /* color: white; */
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-ul li a:hover {
-  color: lightgreen;
-}
-
-.checkbtn {
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-}
 
 
 @media (max-width: 400px) {
-html, body {
-    padding-right: 20px;
-    overflow-x: hidden;
-  }
+
   .checkbtn {
     display: block;
     order: 1;
