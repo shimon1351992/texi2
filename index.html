@@ -45,7 +45,8 @@
             <img src="logo.png"  class="nav-logo">
         </a>
         <!-- <div class="numberonnav">055-939-1710</div> -->
-        <button  id="grad" type="button" class="btn1 " data-bs-toggle="button">התקשר עכשיו</button>
+        <button type="button" class="btn btn-outline-warning btn2">התקשרו עכשיו</button>
+
     </div>
       </div>
 </header>
@@ -85,13 +86,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="newtexi.png" alt="tiniest puppy">
+                <img class="center-fit" src="newtexi.png" alt="tiniest puppy">
             </div>
             <div class="carousel-item">
-                <img src="texipicture2.jpg" alt="tiny puppy">
+                <img class="center-fit" src="texipicture2.jpg" alt="tiny puppy">
             </div>
             <div class="carousel-item">
-                <img src="texipicture.jpeg" alt="least tiny but still tiny puppy">
+                <img class="center-fit" src="texipicture.jpeg" alt="least tiny but still tiny puppy">
             </div>
         </div>
         <a class="carousel-control-prev" href="#ImageCarouselCSS" role="button" data-bs-slide="prev">
@@ -125,7 +126,7 @@
                     <p class="firstheadline">שירותי מוניות איכותיים </p><br>
                     <p class="firstheadline">המציעים לך חוויית נסיעה  </p><br>
                     <p class="firstheadline"> בלתי נשכחת בכל שעה ובכל מקום בארץ</p><br>
-                    <button type="button" class="btn1 " data-bs-toggle="button">055-939-1710</button>
+                    <button type="button" class="btn btn-outline-warning btn1 " data-bs-toggle="button">055-939-1710</button>
                 </div>
             </div>
         </div>
@@ -182,7 +183,7 @@
             <div class="col-md-5">
                 <div class="col-md-5">
                     <img class="featurette-image img-fluid mx-auto" src="airport.png" alt="Generic placeholder image" style="height:200px; width: 200px;">
-                    <button type="button" class="btn" data-bs-toggle="button">התקשר עכשיו</button>
+                    <button type="button" class="btn btn-outline-warning btn1" data-bs-toggle="button">התקשר עכשיו</button>
 
                 </div>
             </div>
@@ -201,7 +202,7 @@
             <div class="col-md-5 order-md-1">
                 <div class="col-md-5">
                 <img class="featurette-image img-fluid mx-auto" src="suitcase.jpg" alt="Generic placeholder image" style="height:200px; width: 200px;">
-                <button type="button" class="btn" data-bs-toggle="button">התקשר עכשיו</button>
+                <button type="button" class="btn btn-outline-warning btn1" data-bs-toggle="button">התקשר עכשיו</button>
             </div>
             </div>
         </div>
@@ -217,7 +218,7 @@
                 <div class="col-md-5">
                 <img class="featurette-image img-fluid mx-auto" src="delivery.png"
                     alt="Generic placeholder image" style="height:200px; width: 200px;">
-                    <button type="button" class="btn" data-bs-toggle="button">התקשר עכשיו</button>
+                    <button type="button" class="btn btn-outline-warning btn1" data-bs-toggle="button">התקשר עכשיו</button>
                 </div>
 
             </div>
@@ -234,12 +235,12 @@
                                     האמצעים</span></h2>
                         </div>
                         <div class="col-12 d-flex justify-content-center imgcontainer">
-                            <img class="featurette-image img-fluid mx-2" src="paybox.jpg" alt="Generic placeholder image"
-                                style="height:200px; width:200px; border-radius: 50%;">
+                            <img class="featurette-image img-fluid mx-2" src="paybox.jpg" alt="Generic placeholder image" 
+                                style="height:100px; width:100px; border-radius: 100%;">
                             <img class="featurette-image img-fluid mx-2" src="bit.webp" alt="Generic placeholder image"
-                                style="height:200px; width:200px; border-radius: 50%;">
+                                style="height:100px; width:100px; border-radius: 100%;">
                             <img class="featurette-image img-fluid mx-2" src="creditcard.jpg" alt="Generic placeholder image"
-                                style="height:200px; width:200px; border-radius: 50%;">
+                                style="height:100px; width:100px; border-radius: 100%;">
                         </div>
                         <!-- <div class="col-12">
                                     <button type="button" class="btn1 btn-primary mt-3" data-bs-toggle="button">055-939-1710</button>
@@ -365,6 +366,15 @@
                 var $nav = $("#mainNavbar");
                 $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
             });
+        });
+    </script>
+    <script type="text/javascript" language="JavaScript">
+        function set_body_height() { // set body height = window height
+            $('body').height($(window).height());
+        }
+        $(document).ready(function() {
+            $(window).bind('resize', set_body_height);
+            set_body_height();
         });
     </script>
 </body>
