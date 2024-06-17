@@ -378,14 +378,22 @@
         });
     </script>
     <script>
-        document.body.addEventListener("scroll", function(){
-  let Navbar = document.getElementById('navbar');
-  if(document.body.scrollTop > 0){
-    Navbar.classList.add("navbar-scroll");
-  }else{
-    Navbar.classList.remove("navbar-scroll");
-  }
-});
+  const nav = document.querySelector(".navbar");
+  let lastScrollY = window.scrollY;
+
+  window.addEventListener("scroll", () => {
+    if (lastScrollY < window.scrollY) {
+      nav.classList.add("nav--hidden");
+    } else {
+      nav.classList.remove("nav--hidden");
+    }
+
+    lastScrollY = window.scrollY;
+  });
+
+
+
+
     </script>
 </body>
 
