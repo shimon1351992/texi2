@@ -226,10 +226,15 @@ html ,body {
   text-align: justify;
   direction: rtl;
   font-size: 1.5rem;
+  color: #684A49;
 }
 
 .center-text {
   text-align: center;
+  display: block; /* or inline-block */
+  direction: rtl;
+  font-size: 1.5rem;
+  color: #684A49;
 }
 
 .payment{
