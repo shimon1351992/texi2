@@ -30,11 +30,7 @@ html ,body {
   text-align: center;
   transition: .5s;
   z-index: 1000;
-  
 }
-
-
-
 
 #navbar a {
   /* float: left; */
@@ -45,10 +41,8 @@ html ,body {
   padding: 15px;
   text-decoration: none;
   font-size: 24px;
-
   
 }
-
 
 .imgbutton{
   display: flex;
@@ -56,8 +50,6 @@ html ,body {
   align-items: center;
   width: 100%;
 }
-
-
 
 
 #navbar .nav-logo {
@@ -70,12 +62,8 @@ html ,body {
 
 } */
 
-
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: rgba(23, 22, 22, 0.5); /* Add background color to the control icons */
@@ -95,7 +83,6 @@ html ,body {
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-
 /* Center align the text within the three columns below the carousel */
 
 .container{
@@ -136,7 +123,7 @@ html ,body {
   border-color: rgb(122, 128, 128);
   background: linear-gradient(to right, yellow, #fcdb03);
   color: black;
-  font-size: 1.6em; /* Slightly larger font on hover */
+  font-size: 1.4em; /* Slightly larger font on hover */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
   transform: translateY(-2px); /* Slight lift on hover */
 }
@@ -148,9 +135,8 @@ html ,body {
 
 .btn1:hover {
   background: linear-gradient(to right, yellow, #fcdb03);
-  font-size: 1.6em; /* Slightly larger font on hover */
+  font-size: 1.4em; /* Slightly larger font on hover */
 }
-
 
 
 .btn2{
