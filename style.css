@@ -44,7 +44,7 @@ html ,body {
   text-align: center;
   padding: 15px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
 
   
 }
@@ -114,22 +114,45 @@ html ,body {
   margin-left: .75rem;
 }
 
-.btn{
-  border: black solid 2px;
+.btn {
+  display: inline-flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border: 2px solid black;
   width: 200px;
   height: 70px;
-   background-color:  #ffffff; 
+  background-color: #ffffff;
   color: black;
-  /* background:linear-gradient(to right,red,blue); */
-
- }
-.btn:hover{
-  border: rgb(122, 128, 128) solid 2px;
-  background:linear-gradient(to right,yellow,#fcdb03);
-  color: black;
-  font:bold;
-  font-size:larger;
+  text-align: center;
+  font-size: 1.5em; /* Increase the font size */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  border-radius: 10px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
+
+.btn:hover {
+  border-color: rgb(122, 128, 128);
+  background: linear-gradient(to right, yellow, #fcdb03);
+  color: black;
+  font-size: 1.6em; /* Slightly larger font on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.btn1 {
+  background-color: #fcdb03;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.btn1:hover {
+  background: linear-gradient(to right, yellow, #fcdb03);
+  font-size: 1.6em; /* Slightly larger font on hover */
+}
+
+
+
 .btn2{
   border: black solid 2px;
   width: 200px;
@@ -146,10 +169,6 @@ html ,body {
   font:bold;
   font-size:larger;
 }
-
-
-
-
 
 
 .container2 {
@@ -181,22 +200,6 @@ html ,body {
   width: 900x;
 }
 
-.btn1 {
-  border: black solid 2px;
-  margin-top: 10px;
-  width: 200px;
-  height: 70px;
-  background-color:  #fcdb03;
-}
-.btn1:hover{
-  border: rgb(122, 128, 128) solid 2px;
-  background:linear-gradient(to right,yellow,#fcdb03);
-  color: black;
-  font:bold;
-  font-size:larger;
-}
-
-
 /* Featurettes
 ------------------------- */
 
@@ -215,7 +218,20 @@ html ,body {
   font-weight:bolder;
   line-height: 1;
   letter-spacing: -.05rem;
+  text-align: center;
 }
+
+.justify-text {
+  display: block; /* or inline-block */
+  text-align: justify;
+  direction: rtl;
+  font-size: 1.5rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
 .payment{
   width: 100%;
   display: flex;
@@ -254,7 +270,13 @@ footer{
   }
 
   .featurette-heading {
-      font-size: 18px;
+    font-size: 2rem;
+  }
+  .justify-text {
+    font-size: 1.5rem;
+  }
+  .justify-text {
+    font-size: 1.5rem;
   }
 
   .featurette .col-md-5 {
@@ -300,11 +322,14 @@ footer{
   }
 
   .featurette-heading {
-      font-size: 16px;
+    font-size: 2rem;
+  }
+  .justify-text {
+    font-size: 1.5rem;
   }
 }
 .carousel-item {
-  height: 65vh;
+  /* height: 65vh; */
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -315,11 +340,6 @@ footer{
   overflow-x: hidden;
 
 }
-
-
-
-
-
 
 
 @media (max-width: 400px) {
@@ -415,6 +435,13 @@ footer{
   .nav-logo {
     height: 40px; /* Reduce logo height for smaller screens */
     width: auto; /* Allow logo width to adjust */
+  }
+
+  .featurette-heading {
+    font-size: 2rem;
+  }
+  .justify-text {
+    font-size: 1.5rem;
   }
 
   .btn1 {
