@@ -15,7 +15,7 @@ html ,body {
 
 
 #navbar {
-  border: #080709 solid 2px;
+  /* border: #080709 solid 2px; */
   width: 100%;
   /* height: var(--nav-height); */
   /* position: fixed; */
