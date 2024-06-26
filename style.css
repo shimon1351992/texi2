@@ -1,29 +1,23 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
-html ,body {
+html, body {
   padding-bottom: 3rem;
   color: #080709;
   overflow-x: hidden !important;
   width: 100%;
 }
 
-.textcolor{
+.textcolor {
   color: #080709;
 }
 
-
 #navbar {
-  /* border: #080709 solid 2px; */
   width: 100%;
-  /* height: var(--nav-height); */
-  /* position: fixed; */
   top: 0;
   left: 0;
-  background:linear-gradient(to right,rgb(106, 106, 92),#3c3a2c);
+  background: linear-gradient(to right, rgb(106, 106, 92), #3c3a2c);
   display: flex;
- 
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -33,7 +27,6 @@ html ,body {
 }
 
 #navbar a {
-  /* float: left; */
   display: flex;
   align-items: center;
   color: #f3ecec;
@@ -41,51 +34,41 @@ html ,body {
   padding: 15px;
   text-decoration: none;
   font-size: 24px;
-  
 }
 
-.imgbutton{
+.imgbutton {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-
 
 #navbar .nav-logo {
   height: 50px;
   width: 200px;
 }
 
-/* .navbar-toggler-icon{
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-
-} */
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(23, 22, 22, 0.5); /* Add background color to the control icons */
+  background-color: rgba(23, 22, 22, 0.5);
   border-radius: 50%;
-/* Adjust padding as needed */
 }
- .carousel-item {
-  margin-top:0px ;
-  height: 100%; /* Adjust this value to set the height you want */
- }  
+
+.carousel-item {
+  margin-top: 0px;
+  height: 100%;
+}
+
 .carousel-item img {
   height: 450px;
   width: 100%;
-   /* Ensure the image covers the carousel item without stretching */
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-/* Center align the text within the three columns below the carousel */
-
-.container{
+.container {
   margin-top: 50px;
 }
 
@@ -93,9 +76,11 @@ html ,body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: 400;
 }
+
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
@@ -103,66 +88,62 @@ html ,body {
 
 .btn {
   display: inline-flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
   border: 2px solid black;
   width: 200px;
   height: 70px;
   background-color: #ffffff;
   color: black;
   text-align: center;
-  font-size: 1.5em; /* Increase the font size */
+  font-size: 1.5em;
   font-weight: bold;
-  text-decoration: none; /* Remove underline */
-  border-radius: 10px; /* Rounded corners */
-  transition: all 0.3s ease; /* Smooth transition for hover effect */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn:hover {
   border-color: rgb(122, 128, 128);
   background: linear-gradient(to right, yellow, #fcdb03);
   color: black;
-  font-size: 1.4em; /* Slightly larger font on hover */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-  transform: translateY(-2px); /* Slight lift on hover */
+  font-size: 1.4em;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 .btn1 {
   background-color: #fcdb03;
-  border-radius: 10px; /* Rounded corners */
+  border-radius: 10px;
 }
 
 .btn1:hover {
   background: linear-gradient(to right, yellow, #fcdb03);
-  font-size: 1.4em; /* Slightly larger font on hover */
+  font-size: 1.4em;
 }
 
-
-.btn2{
+.btn2 {
   border: black solid 2px;
   width: 200px;
   height: 70px;
-   background-color:  #ffffff; 
+  background-color: #ffffff;
   color: black;
-  /* background:linear-gradient(to right,red,blue); */
-
- }
-.btn2:hover{
-  border: rgb(122, 128, 128) solid 2px;
-  background:linear-gradient(to right,yellow,#fcdb03);
-  color: black;
-  font:bold;
-  font-size:larger;
 }
 
+.btn2:hover {
+  border: rgb(122, 128, 128) solid 2px;
+  background: linear-gradient(to right, yellow, #fcdb03);
+  color: black;
+  font-size: larger;
+}
 
 .container2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center; /* Center text within the column */
+  text-align: center;
 }
 
 .container2 .row {
@@ -174,41 +155,33 @@ html ,body {
 }
 
 .container2 .col-md-5 {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .firstheadline {
   margin-bottom: 20px;
-  width: 900x;
 }
-
-/* Featurettes
-------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0;
 }
+
 .featurette-image {
-  
-  margin-bottom: 100px; /* Adjust the value as needed */
   margin: 0 10px 100px 0px;
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
-  /* border: #080709 solid 2px; */
-  font-weight:bolder;
+  font-weight: bolder;
   line-height: 1;
   letter-spacing: -.05rem;
   text-align: center;
 }
 
 .justify-text {
-  display: block; /* or inline-block */
+  display: block;
   text-align: justify;
   direction: rtl;
   font-size: 1.5rem;
@@ -217,43 +190,40 @@ html ,body {
 
 .center-text {
   text-align: center;
-  display: block; /* or inline-block */
+  display: block;
   direction: rtl;
   font-size: 1.5rem;
   color: #684A49;
 }
 
-.payment{
+.payment {
   width: 100%;
   display: flex;
-  justify-content:f;
+  justify-content: center;
   align-items: center;
 }
-.imgcontainer{
-  margin-top: 100px;
 
+.imgcontainer {
+  margin-top: 100px;
   display: flex;
   gap: 100px;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
 }
-footer{
-  background:linear-gradient(to right,rgb(255, 255, 255),#ffffff);
+
+footer {
+  background: linear-gradient(to right, rgb(255, 255, 255), #ffffff);
   width: 100%;
 }
 
 .social-icons {
   display: flex;
-  justify-content: center; /* Centers the icons horizontally */
-  gap: 80px; /* Adds space between the icons */
+  justify-content: center;
+  gap: 80px;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
-
-
 @media (max-width: 576px) {
   .carousel-caption {
       font-size: 14px;
@@ -261,13 +231,11 @@ footer{
   }
 
   .featurette-heading {
-    font-size: 2rem;
+      font-size: 2rem;
   }
+
   .justify-text {
-    font-size: 1.5rem;
-  }
-  .justify-text {
-    font-size: 1.5rem;
+      font-size: 1.5rem;
   }
 
   .featurette .col-md-5 {
@@ -292,81 +260,39 @@ footer{
       width: 100%;
       margin-top: 10px;
   }
-}
-
-@media (max-width: 576px) {
-  .carousel-caption {
-      font-size: 12px;
-  }
-
-  .featurette-heading {
-      font-size: 16px;
-  }
 
   .rounded-circle {
       width: 100px;
       height: 100px;
   }
 
-  .featurette .col-md-5 {
-      margin-bottom: 10px;
+  .header {
+      padding-right: 100px;
   }
 
-  .featurette-heading {
-    font-size: 2rem;
-  }
-  .justify-text {
-    font-size: 1.5rem;
-  }
-}
-.carousel-item {
-  /* height: 65vh; */
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #080907;
-  overflow-x: hidden;
-
-}
-
-
-@media (max-width: 400px) {
-
-  .checkbtn {
-    display: block;
-    order: 1;
-    margin-right: 20px;
+  #navbar {
+      padding-right: 100px;
   }
 
-  ul {
-    position: fixed;
-    top: 80px;
-    right: -100%;
-    background-color: #fcdb03;
-    width: 50%;
-    height:50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s;
+  .imgbutton {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 150px;
   }
 
-  ul li {
-    margin: 20xp 0;
+  .nav-logo {
+      height: 40px;
+      width: auto;
   }
 
-  ul li a {
-    font-size: 20px;
-  }
-
-  #check:checked ~ ul {
-    right: 0;
+  .btn1, .btn2 {
+      width: 150px;
+      height: 50px;
+      font-size: 14px;
   }
 }
+
 @media (max-width: 597px) {
   .featurette-image {
       margin-bottom: 10px;
@@ -377,17 +303,14 @@ footer{
       font-size: 14px;
   }
 
-}
-@media (max-width: 597px) {
   .imgcontainer {
-      flex-direction: column; /* Stacks images vertically on smaller screens */
-      align-items: center; /* Center-aligns images */
-      gap: 10px; /* Adjust gap for smaller screens */
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
   }
-}
-@media (max-width: 768px) {
+
   .social-icons {
-      gap: 15px; /* Adjust gap for smaller screens */
+      gap: 15px;
   }
 
   .social-btn {
@@ -399,54 +322,18 @@ footer{
       font-size: 1.2rem;
   }
 }
-@media (max-width: 576px) {
-  .firstheadline {
-    font-size: 22px; /* Adjust headline font size */
-    text-align: center; /* Center align text */
+
+@media (max-width: 768px) {
+  .social-icons {
+      gap: 15px;
   }
 
- 
-}
-/* Adjustments for small devices (phones) */
-@media (max-width: 576px) {
-  .header{
-    padding-right: 100px
-  }
-  #navbar {
-    padding-right: 100px; /* Adjust padding for smaller screens */
+  .social-btn {
+      height: 40px;
+      width: 40px;
   }
 
-  .imgbutton {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 150px; /* Adjust padding for smaller screens */
-  }
-
-  .nav-logo {
-    height: 40px; /* Reduce logo height for smaller screens */
-    width: auto; /* Allow logo width to adjust */
-  }
-
-  .featurette-heading {
-    font-size: 2rem;
-  }
-  .justify-text {
-    font-size: 1.5rem;
-  }
-
-  .btn1 {
-    width: 150px; /* Adjust button width */
-    height: 50px; /* Adjust button height */
-    font-size: 14px; /* Adjust button font size */
-  }
-  .btn2 {
-    width: 150px; /* Adjust button width */
-    height: 50px; /* Adjust button height */
-    font-size: 14px; /* Adjust button font size */
+  .social-btn i {
+      font-size: 1.2rem;
   }
 }
-
-
-
-
